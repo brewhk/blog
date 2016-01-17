@@ -14,7 +14,7 @@
     7.  Read Next
     8.  Third Party Elements
     9.  Pagination
-    10.  Footer
+    10. Footer
     11. Media Queries (Tablet)
     12. Media Queries (Mobile)
     13. Animations
@@ -990,7 +990,8 @@ body:not(.post-template) .post-title {
     min-height: 77px;
 }
 
-.post-date {
+.post-date,
+.comment-count {
     display: inline-block;
     margin-left: 8px;
     padding-left: 12px;
@@ -1736,7 +1737,9 @@ body:not(.post-template) .post-title {
         border-top: rgba(0,0,100,0.06) 1px solid;
         border-left: none;
     }
-
+    .comment-count {
+        display: none;
+    }
 }
 
 
@@ -1838,7 +1841,8 @@ body:not(.post-template) .post-title {
         line-height: 1.65em;
     }
 
-    .post-date {
+    .post-date,
+    .comment-count {
         display: none;
     }
 
