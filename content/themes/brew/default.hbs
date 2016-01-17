@@ -50,8 +50,9 @@
         {{{body}}}
 
         <footer class="site-footer clearfix">
-            <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}"</section>
-            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+            <section class="copyright">
+                <a href="http://www.brew.com.hk/">Brew Creative Limited</a> &copy; {{date format="YYYY"}}
+            </section>
         </footer>
 
     </div>
@@ -65,5 +66,7 @@
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/index.js"}}""></script>
 
+    {{! Disqus comment count}}
+    <script id="dsq-count-scr" src="//brewhk.disqus.com/count.js" async></script>
 </body>
 </html>
