@@ -14,6 +14,7 @@ config = {
         url: 'http://blog.brew.com.hk',
         mail: {
             transport: 'SMTP',
+            from: '"The Brewing Press" <dan@brew.com.hk>',
             options: {
                 service: 'Mandrill',
                 host: 'smtp.mandrillapp.com',
